@@ -11,5 +11,5 @@ class Person
     end
 end
 
-person = Person.new('Joao', 12)
+person = Person.new('Alethea', 22)
 person.check
