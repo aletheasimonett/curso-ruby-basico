@@ -33,6 +33,7 @@ MENU
         nome = input ("Informe seu nome: ")
         data_nascimento = input ("Informe sua data de nascimento: ")
         pressao_arterial = input ("Informe sua pressão arterial: ")
+        print('\nCadastrado com sucesso!')
 
         informacao_paciente['nome'].append(nome)
         informacao_paciente['data_nascimento'].append(data_nascimento)
@@ -40,8 +41,6 @@ MENU
         
         numPacientes = numPacientes + 1
          
-        import os
-        os.system('clear') or None
 
     #Relatorio geral
     if menuop == '2':
