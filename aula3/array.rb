@@ -3,7 +3,6 @@ estados.push('Espirito Santo') #adicionando item, o push sempre adiciona de form
 estados.push('Minas Gerais', 'Rio de Janeiro', 'São Paulo') #inserindo varios elementos de uma só vez
 
 puts estados #exibindo o array
-
 puts estados[1] #acessando o segundo elemento do array
 puts estados[2..5] #acessando indices atraves de intervalos, vai retornar os indices 2, 3, 4 e 5
 
