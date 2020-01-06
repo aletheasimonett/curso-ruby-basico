@@ -21,6 +21,6 @@ end
 p1 = Pessoa.new
 puts p1.falar("Alethea")
 puts p1.falar2
-puts p1.falar3("Trocar olá")
+puts p1.falar3("Palavra foi trocada")
 
 p2 = Pessoa.new(5)
